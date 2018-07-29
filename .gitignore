@@ -23,22 +23,22 @@ eagle.epf
 *.cmp
 *.ly2
 *.l15
-*.sol
-*.plc
-*.stc
-*.sts
-*.crc
-*.crs
+# *.sol
+# *.plc
+# *.stc
+# *.sts
+# *.crc
+# *.crs
 
-*.dri
-*.drl
-*.gpi
-*.pls
-*.ger
-*.gpi
-*.xln
+# *.dri
+# *.drl
+# *.gpi
+# *.pls
+# *.ger
+# *.gpi
+# *.xln
 
-*.drd
+# *.drd
 *.drd.*
 
 *.s#*
