@@ -152,7 +152,7 @@
 <hole x="40" y="5" drill="3.2"/>
 <hole x="40" y="40" drill="3.2"/>
 <hole x="5" y="40" drill="3.2"/>
-<text x="1" y="1" size="1.27" layer="25">Pineapple Mini 2.0.0</text>
+<text x="1" y="43" size="1.27" layer="25">Pineapple Mini 2.0.0</text>
 <rectangle x1="0" y1="44" x2="45" y2="45" layer="41"/>
 <rectangle x1="44" y1="0" x2="45" y2="45" layer="41"/>
 <rectangle x1="0" y1="0" x2="45" y2="1" layer="41"/>
