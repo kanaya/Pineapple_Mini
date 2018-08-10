@@ -11132,13 +11132,6 @@ CONN_04
 <wire x1="116.84" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="D8"/>
-<wire x1="106.68" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND3"/>
@@ -11179,6 +11172,15 @@ CONN_04
 <pinref part="U$1" gate="G$1" pin="DTR"/>
 <pinref part="FTDI" gate="A" pin="6"/>
 <wire x1="71.12" y1="15.24" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="60.96" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="60.96" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="D2"/>
+<wire x1="104.14" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

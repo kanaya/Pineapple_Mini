@@ -40,4 +40,4 @@ MIDI Note On signal (channel 0, note 60, velocity >=1) turns the relay on. MIDI 
 | Arduino Pro Mini   | Meaning   |
 |--------------------|-----------|
 | D0 (RX, INT)       | MIDI IN   |
-| D8                 | RELAY     |
+| D2                 | RELAY 0   |
