@@ -177,6 +177,7 @@
 <text x="27.94" y="44.45" size="0.6096" layer="25" rot="R90" align="bottom-right">R10</text>
 <text x="25.4" y="44.45" size="0.6096" layer="25" rot="R90" align="bottom-right">R11</text>
 <text x="22.86" y="44.45" size="0.6096" layer="25" rot="R90" align="bottom-right">R12</text>
+<text x="23" y="15" size="1.27" layer="21" align="center">Pineapple Mini 2.0.0</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2757,11 +2758,68 @@ CONN_04
 </package3d>
 </packages3d>
 </library>
-<library name="pineapplelogo2">
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
+This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="PINEAPPLELOGO2">
-<wire x1="0.160628125" y1="1.973340625" x2="0.15636875" y2="1.96698125" width="0" layer="1"/>
-<polygon width="0" layer="1">
+<package name="OSHW-LOGO-S">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Silkscreen&lt;/h3&gt;
+&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.15" layer="21">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
+</packages>
+</library>
+<library name="pineapplelogo">
+<packages>
+<package name="PINEAPPLELOGO2SILKMINI">
+<polygon width="0" layer="21">
 <vertex x="0.80376875" y="3.640221875"/>
 <vertex x="0.791615625" y="3.644109375"/>
 <vertex x="0.785746875" y="3.646928125"/>
@@ -2943,7 +3001,7 @@ CONN_04
 <vertex x="0.74879375" y="3.614625"/>
 <vertex x="0.77355" y="3.6264625"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-2.40414375" y="0.0161375"/>
 <vertex x="-2.3696625" y="0.016134375"/>
 <vertex x="-2.342434375" y="0.0369875"/>
@@ -2975,7 +3033,7 @@ CONN_04
 <vertex x="-2.44658125" y="0.02585"/>
 <vertex x="-2.42796875" y="0.01545"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="0.213653125" y="0.0161125"/>
 <vertex x="0.259990625" y="0.016628125"/>
 <vertex x="0.2944625" y="0.05933125"/>
@@ -3007,7 +3065,7 @@ CONN_04
 <vertex x="0.166609375" y="0.02760625"/>
 <vertex x="0.18705625" y="0.015734375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="2.297840625" y="0.898590625"/>
 <vertex x="2.280115625" y="0.898590625"/>
 <vertex x="2.2621375" y="0.900509375"/>
@@ -3051,7 +3109,7 @@ CONN_04
 <vertex x="2.467853125" y="0.872809375"/>
 <vertex x="2.389759375" y="0.90351875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="1.126884375" y="0.899275"/>
 <vertex x="1.110984375" y="0.899275"/>
 <vertex x="1.09539375" y="0.900246875"/>
@@ -3095,7 +3153,7 @@ CONN_04
 <vertex x="1.288246875" y="0.8761625"/>
 <vertex x="1.2131125" y="0.903209375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-4.57996875" y="0.3222875"/>
 <vertex x="-4.579915625" y="0.3216375"/>
 <vertex x="-4.579865625" y="0.320984375"/>
@@ -3142,7 +3200,7 @@ CONN_04
 <vertex x="-4.608875" y="0.321275"/>
 <vertex x="-4.594378125" y="0.3222875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="0.850171875" y="0.45741875"/>
 <vertex x="0.850171875" y="0.5726875"/>
 <vertex x="0.850228125" y="0.687953125"/>
@@ -3177,7 +3235,7 @@ CONN_04
 <vertex x="0.850228125" y="0.2268875"/>
 <vertex x="0.850171875" y="0.34215625"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="4.372271875" y="0.4540875"/>
 <vertex x="4.372271875" y="0.5704625"/>
 <vertex x="4.37233125" y="0.686834375"/>
@@ -3212,7 +3270,7 @@ CONN_04
 <vertex x="4.3723625" y="0.225775"/>
 <vertex x="4.372271875" y="0.33993125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="3.194625" y="0.457884375"/>
 <vertex x="3.194625" y="0.574253125"/>
 <vertex x="3.19474375" y="0.690621875"/>
@@ -3247,7 +3305,7 @@ CONN_04
 <vertex x="3.19470625" y="0.225146875"/>
 <vertex x="3.194625" y="0.341515625"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="2.022446875" y="0.454225"/>
 <vertex x="2.022446875" y="0.5705875"/>
 <vertex x="2.022534375" y="0.68695"/>
@@ -3282,7 +3340,7 @@ CONN_04
 <vertex x="2.022534375" y="0.22593125"/>
 <vertex x="2.022446875" y="0.340078125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-0.40465" y="0.347275"/>
 <vertex x="-0.386796875" y="0.377684375"/>
 <vertex x="-0.372596875" y="0.401203125"/>
@@ -3335,7 +3393,7 @@ CONN_04
 <vertex x="-0.31335625" y="0.34733125"/>
 <vertex x="-0.35535" y="0.347275"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-4.998871875" y="0.4574375"/>
 <vertex x="-4.998871875" y="0.405346875"/>
 <vertex x="-4.99888125" y="0.353253125"/>
@@ -3370,7 +3428,7 @@ CONN_04
 <vertex x="-4.999021875" y="0.692403125"/>
 <vertex x="-4.99886875" y="0.57491875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-1.863553125" y="0.4574875"/>
 <vertex x="-1.863553125" y="0.40539375"/>
 <vertex x="-1.8635625" y="0.353303125"/>
@@ -3405,7 +3463,7 @@ CONN_04
 <vertex x="-1.86355625" y="0.68801875"/>
 <vertex x="-1.863553125" y="0.572753125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-3.827009375" y="0.4592375"/>
 <vertex x="-3.827009375" y="0.342846875"/>
 <vertex x="-3.827015625" y="0.226459375"/>
@@ -3440,7 +3498,7 @@ CONN_04
 <vertex x="-3.827128125" y="0.69423125"/>
 <vertex x="-3.827003125" y="0.576734375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="4.75595625" y="0.752546875"/>
 <vertex x="4.8091" y="0.752546875"/>
 <vertex x="4.862259375" y="0.751784375"/>
@@ -3469,7 +3527,7 @@ CONN_04
 <vertex x="4.654071875" y="0.751546875"/>
 <vertex x="4.705028125" y="0.7525625"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-1.332078125" y="0.0161375"/>
 <vertex x="-1.2800375" y="0.0161375"/>
 <vertex x="-1.22798125" y="0.015378125"/>
@@ -3495,7 +3553,7 @@ CONN_04
 <vertex x="-1.43395625" y="0.0155375"/>
 <vertex x="-1.3830125" y="0.016146875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="4.758296875" y="0.162471875"/>
 <vertex x="4.70738125" y="0.162471875"/>
 <vertex x="4.656446875" y="0.16316875"/>
@@ -3518,7 +3576,7 @@ CONN_04
 <vertex x="4.86238125" y="0.16356875"/>
 <vertex x="4.810325" y="0.162453125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-1.330984375" y="0.7526"/>
 <vertex x="-1.330984375" y="0.75255"/>
 <vertex x="-1.330984375" y="0.752503125"/>
@@ -3547,7 +3605,7 @@ CONN_04
 <vertex x="-1.435109375" y="0.75186875"/>
 <vertex x="-1.3830375" y="0.7526"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-2.477240625" y="0.670640625"/>
 <vertex x="-2.47730625" y="0.670640625"/>
 <vertex x="-2.47736875" y="0.670640625"/>
@@ -3579,7 +3637,7 @@ CONN_04
 <vertex x="-2.47871875" y="0.77475"/>
 <vertex x="-2.477240625" y="0.72266875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-3.0671" y="0.2414375"/>
 <vertex x="-3.0671" y="0.29234375"/>
 <vertex x="-3.066490625" y="0.3432625"/>
@@ -3605,7 +3663,7 @@ CONN_04
 <vertex x="-3.06609375" y="0.13959375"/>
 <vertex x="-3.06713125" y="0.190528125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="3.57833125" y="0.016109375"/>
 <vertex x="3.628140625" y="0.016109375"/>
 <vertex x="3.677953125" y="0.01583125"/>
@@ -3631,7 +3689,7 @@ CONN_04
 <vertex x="3.476475" y="0.015240625"/>
 <vertex x="3.5274125" y="0.016146875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="4.698115625" y="0.38398125"/>
 <vertex x="4.7291125" y="0.38398125"/>
 <vertex x="4.76019375" y="0.3825"/>
@@ -3657,7 +3715,7 @@ CONN_04
 <vertex x="4.6360625" y="0.382690625"/>
 <vertex x="4.66711875" y="0.383934375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-1.392259375" y="0.38471875"/>
 <vertex x="-1.392259375" y="0.384384375"/>
 <vertex x="-1.392259375" y="0.38405"/>
@@ -3689,7 +3747,7 @@ CONN_04
 <vertex x="-1.458825" y="0.382909375"/>
 <vertex x="-1.425478125" y="0.38471875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="0.80376875" y="3.640221875"/>
 <vertex x="0.77355" y="3.6264625"/>
 <vertex x="0.74879375" y="3.614625"/>
@@ -3871,7 +3929,7 @@ CONN_04
 <vertex x="0.785746875" y="3.646928125"/>
 <vertex x="0.791615625" y="3.644109375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-2.40414375" y="0.016140625"/>
 <vertex x="-2.42796875" y="0.01545"/>
 <vertex x="-2.44658125" y="0.02585"/>
@@ -3903,7 +3961,7 @@ CONN_04
 <vertex x="-2.342434375" y="0.0369875"/>
 <vertex x="-2.3696625" y="0.016134375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="0.213653125" y="0.0161125"/>
 <vertex x="0.18705625" y="0.015734375"/>
 <vertex x="0.166609375" y="0.02760625"/>
@@ -3935,7 +3993,7 @@ CONN_04
 <vertex x="0.2944625" y="0.05933125"/>
 <vertex x="0.259990625" y="0.016628125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="2.297840625" y="0.898590625"/>
 <vertex x="2.389759375" y="0.90351875"/>
 <vertex x="2.467853125" y="0.872809375"/>
@@ -3979,7 +4037,7 @@ CONN_04
 <vertex x="2.2621375" y="0.900509375"/>
 <vertex x="2.280115625" y="0.898590625"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="1.126884375" y="0.899275"/>
 <vertex x="1.2131125" y="0.903209375"/>
 <vertex x="1.288246875" y="0.8761625"/>
@@ -4023,7 +4081,7 @@ CONN_04
 <vertex x="1.09539375" y="0.900246875"/>
 <vertex x="1.110984375" y="0.899275"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-4.57996875" y="0.3222875"/>
 <vertex x="-4.594378125" y="0.3222875"/>
 <vertex x="-4.608875" y="0.321275"/>
@@ -4070,7 +4128,7 @@ CONN_04
 <vertex x="-4.579865625" y="0.320984375"/>
 <vertex x="-4.579915625" y="0.3216375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="0.850171875" y="0.45741875"/>
 <vertex x="0.850171875" y="0.34215625"/>
 <vertex x="0.850228125" y="0.2268875"/>
@@ -4105,7 +4163,7 @@ CONN_04
 <vertex x="0.850228125" y="0.687953125"/>
 <vertex x="0.850171875" y="0.5726875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="4.372271875" y="0.4540875"/>
 <vertex x="4.372271875" y="0.33993125"/>
 <vertex x="4.3723625" y="0.225775"/>
@@ -4140,7 +4198,7 @@ CONN_04
 <vertex x="4.37233125" y="0.686834375"/>
 <vertex x="4.372271875" y="0.5704625"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="3.194625" y="0.457884375"/>
 <vertex x="3.194625" y="0.341515625"/>
 <vertex x="3.19470625" y="0.225146875"/>
@@ -4175,7 +4233,7 @@ CONN_04
 <vertex x="3.19474375" y="0.690621875"/>
 <vertex x="3.194625" y="0.574253125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="2.022446875" y="0.454225"/>
 <vertex x="2.022446875" y="0.340078125"/>
 <vertex x="2.022534375" y="0.22593125"/>
@@ -4210,7 +4268,7 @@ CONN_04
 <vertex x="2.022534375" y="0.68695"/>
 <vertex x="2.022446875" y="0.5705875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-0.40465" y="0.347275"/>
 <vertex x="-0.35535" y="0.347275"/>
 <vertex x="-0.31335625" y="0.34733125"/>
@@ -4263,7 +4321,7 @@ CONN_04
 <vertex x="-0.372596875" y="0.401203125"/>
 <vertex x="-0.386796875" y="0.377684375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-4.998871875" y="0.4574375"/>
 <vertex x="-4.99886875" y="0.57491875"/>
 <vertex x="-4.999021875" y="0.692403125"/>
@@ -4298,7 +4356,7 @@ CONN_04
 <vertex x="-4.99888125" y="0.353253125"/>
 <vertex x="-4.998871875" y="0.405346875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-1.863553125" y="0.4574875"/>
 <vertex x="-1.863553125" y="0.572753125"/>
 <vertex x="-1.86355625" y="0.68801875"/>
@@ -4333,7 +4391,7 @@ CONN_04
 <vertex x="-1.8635625" y="0.353303125"/>
 <vertex x="-1.863553125" y="0.40539375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-3.82700625" y="0.4592375"/>
 <vertex x="-3.827003125" y="0.576734375"/>
 <vertex x="-3.827128125" y="0.69423125"/>
@@ -4368,7 +4426,7 @@ CONN_04
 <vertex x="-3.827015625" y="0.226459375"/>
 <vertex x="-3.827009375" y="0.342846875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="4.75595625" y="0.752553125"/>
 <vertex x="4.705028125" y="0.7525625"/>
 <vertex x="4.654071875" y="0.751546875"/>
@@ -4397,7 +4455,7 @@ CONN_04
 <vertex x="4.862259375" y="0.751784375"/>
 <vertex x="4.8091" y="0.752546875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-1.332078125" y="0.016140625"/>
 <vertex x="-1.3830125" y="0.016146875"/>
 <vertex x="-1.43395625" y="0.0155375"/>
@@ -4423,7 +4481,7 @@ CONN_04
 <vertex x="-1.22798125" y="0.015378125"/>
 <vertex x="-1.2800375" y="0.0161375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="4.758296875" y="0.1624625"/>
 <vertex x="4.810325" y="0.162453125"/>
 <vertex x="4.86238125" y="0.16356875"/>
@@ -4446,7 +4504,7 @@ CONN_04
 <vertex x="4.656446875" y="0.16316875"/>
 <vertex x="4.70738125" y="0.162471875"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-1.330984375" y="0.7526"/>
 <vertex x="-1.3830375" y="0.7526"/>
 <vertex x="-1.435109375" y="0.75186875"/>
@@ -4475,7 +4533,7 @@ CONN_04
 <vertex x="-1.330984375" y="0.752503125"/>
 <vertex x="-1.330984375" y="0.75255"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-2.477240625" y="0.670640625"/>
 <vertex x="-2.477240625" y="0.72266875"/>
 <vertex x="-2.47871875" y="0.77475"/>
@@ -4507,7 +4565,7 @@ CONN_04
 <vertex x="-2.47736875" y="0.670640625"/>
 <vertex x="-2.47730625" y="0.670640625"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-3.067115625" y="0.2414375"/>
 <vertex x="-3.06713125" y="0.190528125"/>
 <vertex x="-3.06609375" y="0.13959375"/>
@@ -4533,7 +4591,7 @@ CONN_04
 <vertex x="-3.066490625" y="0.3432625"/>
 <vertex x="-3.0671" y="0.29234375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="3.57833125" y="0.016128125"/>
 <vertex x="3.5274125" y="0.016146875"/>
 <vertex x="3.476475" y="0.015240625"/>
@@ -4559,7 +4617,7 @@ CONN_04
 <vertex x="3.677953125" y="0.01583125"/>
 <vertex x="3.628140625" y="0.016109375"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="4.698115625" y="0.38395625"/>
 <vertex x="4.66711875" y="0.383934375"/>
 <vertex x="4.6360625" y="0.382690625"/>
@@ -4585,7 +4643,7 @@ CONN_04
 <vertex x="4.76019375" y="0.3825"/>
 <vertex x="4.7291125" y="0.38398125"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0" layer="21">
 <vertex x="-1.392259375" y="0.38471875"/>
 <vertex x="-1.425478125" y="0.38471875"/>
 <vertex x="-1.458825" y="0.382909375"/>
@@ -4616,64 +4674,6 @@ CONN_04
 <vertex x="-1.39225625" y="0.383715625"/>
 <vertex x="-1.392259375" y="0.38405"/>
 <vertex x="-1.392259375" y="0.384384375"/>
-</polygon>
-</package>
-</packages>
-</library>
-<library name="SparkFun-Aesthetics">
-<description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
-This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="OSHW-LOGO-S_COPPER">
-<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Top Copper&lt;/h3&gt;
-&lt;p&gt;Exposed copper logo for open-source hardware designs.&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<polygon width="0.15" layer="1">
-<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
-<vertex x="0.5465" y="-0.8746"/>
-<vertex x="0.9235" y="-1.182"/>
-<vertex x="1.182" y="-0.9235"/>
-<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
-<vertex x="1.0049" y="-0.232"/>
-<vertex x="1.4888" y="-0.1828"/>
-<vertex x="1.4888" y="0.1828"/>
-<vertex x="1.0049" y="0.232" curve="19.000773"/>
-<vertex x="0.8746" y="0.5465"/>
-<vertex x="1.182" y="0.9235"/>
-<vertex x="0.9235" y="1.182"/>
-<vertex x="0.5465" y="0.8746" curve="19.000773"/>
-<vertex x="0.232" y="1.0049"/>
-<vertex x="0.1828" y="1.4888"/>
-<vertex x="-0.1828" y="1.4888"/>
-<vertex x="-0.232" y="1.0049" curve="19.000773"/>
-<vertex x="-0.5465" y="0.8746"/>
-<vertex x="-0.9235" y="1.182"/>
-<vertex x="-1.182" y="0.9235"/>
-<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
-<vertex x="-1.0049" y="0.232"/>
-<vertex x="-1.4888" y="0.1828"/>
-<vertex x="-1.4888" y="-0.1828"/>
-<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
-<vertex x="-0.8746" y="-0.5465"/>
-<vertex x="-1.182" y="-0.9235"/>
-<vertex x="-0.9235" y="-1.182"/>
-<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
-<vertex x="-0.3947" y="-0.9528"/>
-<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
-<vertex x="-0.4688" y="0" curve="-247.473915"/>
-<vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
 </packages>
@@ -4962,8 +4962,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.1" y="41.91" size="0.6096" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="36.47" y="43.455" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U$2" library="pineapplelogo2" package="PINEAPPLELOGO2" value="PINEAPPLELOGO2" x="30" y="12" rot="MR0"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S_COPPER" value="OSHW-LOGOS-COPPER" x="22" y="14" rot="MR0"/>
+<element name="U$2" library="pineapplelogo" package="PINEAPPLELOGO2SILKMINI" value="PINEAPPLELOGO2SILKMINI" x="23" y="16"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="23" y="12"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -5017,13 +5017,13 @@ design rules under a new name.</description>
 <wire x1="33.528" y1="36.322" x2="33.528" y2="27.94" width="0.254" layer="1"/>
 <wire x1="33.02" y1="36.83" x2="33.528" y2="36.322" width="0.254" layer="1"/>
 <wire x1="38.862" y1="21.082" x2="39" y2="21" width="0.254" layer="1"/>
-<polygon width="0.254" layer="16">
+<polygon width="0.127" layer="1">
 <vertex x="1" y="1"/>
 <vertex x="44" y="1"/>
 <vertex x="44" y="44"/>
 <vertex x="1" y="44"/>
 </polygon>
-<polygon width="0.254" layer="1">
+<polygon width="0.127" layer="16">
 <vertex x="1" y="1"/>
 <vertex x="44" y="1"/>
 <vertex x="44" y="44"/>
