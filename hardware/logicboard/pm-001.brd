@@ -152,7 +152,7 @@
 <hole x="40" y="5" drill="3.2"/>
 <hole x="40" y="40" drill="3.2"/>
 <hole x="5" y="40" drill="3.2"/>
-<text x="1" y="43" size="1.27" layer="25">Pineapple Mini 2.0.0</text>
+<text x="1" y="43" size="1.016" layer="25">Pineapple Mini 2.0.0</text>
 <rectangle x1="0" y1="44" x2="45" y2="45" layer="41"/>
 <rectangle x1="44" y1="0" x2="45" y2="45" layer="41"/>
 <rectangle x1="0" y1="0" x2="45" y2="1" layer="41"/>
@@ -177,7 +177,7 @@
 <text x="27.94" y="44.45" size="0.6096" layer="25" rot="R90" align="bottom-right">R10</text>
 <text x="25.4" y="44.45" size="0.6096" layer="25" rot="R90" align="bottom-right">R11</text>
 <text x="22.86" y="44.45" size="0.6096" layer="25" rot="R90" align="bottom-right">R12</text>
-<text x="23" y="15" size="1.27" layer="21" align="center">Pineapple Mini 2.0.0</text>
+<text x="23" y="15" size="1.016" layer="21" align="center">Pineapple Mini Rev. 2.0.0</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -4963,7 +4963,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="36.47" y="43.455" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U$2" library="pineapplelogo" package="PINEAPPLELOGO2SILKMINI" value="PINEAPPLELOGO2SILKMINI" x="23" y="16"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="23" y="12"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="23" y="12.5"/>
 </elements>
 <signals>
 <signal name="GND">
