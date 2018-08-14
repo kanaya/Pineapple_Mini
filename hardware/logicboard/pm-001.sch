@@ -19031,7 +19031,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="210.82" y1="63.5" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="MIDIINA" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="OK1" gate="A" pin="A"/>
@@ -19057,14 +19057,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="205.74" y="55.88"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="0R" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="B"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="RELAYC" class="0">
 <segment>
 <pinref part="K1" gate="1" pin="2"/>
 <pinref part="T1" gate="G$1" pin="C"/>
